@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>tetete</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="daijirin2.css">
+</head>
+<body>
+
+    <!-- ==== 搜尋區塊 ==== -->
+    <div id="searchPage" class="main-container">
+    
+    <!-- 左側：搜尋欄 + 結果列表 -->
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" id="searchBar" placeholder="搜尋..." autocomplete="off">
+            </div>
+            <ul id="resultList"></ul>
+            <div id="pagination" class="pagination" style="display:none">
+                <button id="prevBtn">◀</button>
+                <span id="pageInfo">1/1</span>
+                <button id="nextBtn">▶</button>
+            </div>
+        </aside>
+
+        <!-- 中間：內容顯示 -->
+        <section class="content" id="displayArea">
+            <div class="welcome">請在左側開始搜尋</div>
+        </section>
+
+        <!-- 右側：測驗 -->
+        <div id="quizPage" class="quiz-container">
+            <div class="quiz-card">
+                <div id="quizType" class="quiz-label">載入中</div>
+                <div id="quizCount" class="quiz-label">---</div>
+                <div id="quizWord" class="quiz-main-word">---</div>
+
+                <div id="quizAnswerSection" style="display:none">
+                    <div id="quizResult" class="quiz-ans">---</div>
+                    <span id="quizSameReading" class="quiz-same_reading">---</span>
+                    <div id="quizDetail" class="quiz-desc"></div>
+                </div>
+
+                <div class="quiz-btns">
+                    <button class="btn-ans" onclick="revealAnswer()">答案</button>
+                    <button class="btn-next" onclick="loadNextQuiz()">下一</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

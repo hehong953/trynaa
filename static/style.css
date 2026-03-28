@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "MS PGothic";
+    src: url("./fonts/MS PGothic - Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GenEiAntique";
+    src: url("./fonts/GenEiAntiqueNv6-M.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "A-OTF-Gothic";
+    src: url("./fonts/A-OTF-GothicBBBPr5-Medium.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { margin: 0; font-family: "MS PGothic", sans-serif; background: #f4f7f6; overflow: hidden; }
+
+/* 搜尋主容器左右排版 */
+.main-container {
+    display: flex;
+    height: 100vh;       /* 單頁版不用扣 nav */
+}
+
+.quiz-container {
+    width: 500px;               /* 你要的寬度 */
+    height: 100vh;              /* 撐滿整頁 */
+    background: #ffffff;
+    border-left: 1px solid #ddd;
+    
+    display: flex;
+    flex-direction: column;     /* 讓 quiz-card 從上往下排 */
+    align-items: stretch;       /* 讓子元素寬度填滿 */
+    overflow-y: auto;           /* 確保內容可卷動 */
+    padding: 0;                 /* 移除額外空間 */
+}
+
+/* Quiz 卡片填滿右側欄位，不置中 */
+.quiz-card {
+    width: 100%;                /* 填滿 quiz-container */
+    height: 100%;               /* 撐滿右側欄位 */
+    box-sizing: border-box;
+    padding: 15px;              /* 適度內距 */
+    border-radius: 0;           /* 去除圓角，你的「固定框」要求 */
+    box-shadow: none;           /* 單頁右欄不需要浮動陰影 */
+    overflow-y: auto;           /* 卡片內容可卷動 */
+}
+
+.sidebar { width: 300px; background: #fff; border-right: 1px solid #ddd; display: flex; flex-direction: column; }
+.search-box { font-family: "GenEiAntique"; padding: 15px; }
+#searchBar { width: 100%; padding: 10px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+
+#resultList { list-style: none; padding: 0; margin: 0; overflow-y: auto; flex: 1; }
+#resultList li { padding: 12px 15px; border-bottom: 1px solid #eee; cursor: pointer; transition: 0.2s; }
+#resultList li:hover { background: #3498db; color: #fff; }
+
+.pagination { padding: 10px; display: flex; justify-content: space-between; border-top: 1px solid #ddd; }
+.content { font-family: "GenEiAntique"; font-size: 20px; flex: 1; padding: 30px; overflow-y: auto; background: #fff; }
+
+.quiz-label { font-family: "GenEiAntique"; color: #7f8c8d; margin-bottom: 10px; }
+.quiz-main-word { font-family: "GenEiAntique"; font-size: 30px; font-weight: normal; letter-spacing:1px; margin-bottom: 30px; }
+.quiz-ans { font-family: "GenEiAntique"; font-size: 30px; color: #6a3ce7; margin-bottom: 20px; border-top: 1px dashed #ddd; padding-top: 20px; }
+.quiz-same_reading { font-family: "MS PGothic"; font-size: 20px; color:rgb(16, 23, 121); margin-bottom: 5px; border-top: 1px dashed #ddd; padding-top: 5px; }
+.quiz-desc { font-family: "GenEiAntique"; text-align: left; margin-top: 30px; max-height: 200px; overflow-y: auto; font-size: 18px; }
+.quiz-btns { font-family: "GenEiAntique";  margin-top: 30px; display: flex; justify-content: center; gap: 15px; }
+.btn-ans { font-family: "GenEiAntique"; background: #3498db; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+.btn-next { font-family: "GenEiAntique"; background: #2ecc71; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
