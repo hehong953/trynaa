@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Moe Dict - Korean</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="daijirin2.css">
+    <style>
+        /* 簡單的導覽列樣式 */
+        .nav-bar {
+            background: #2c3e50;
+            padding: 10px 20px;
+            display: flex;
+            gap: 20px;
+        }
+        .nav-bar a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-family: "GenEiAntique", sans-serif;
+            font-weight: bold;
+        }
+        .nav-bar a.active {
+            color: #3498db;
+            border-bottom: 2px solid #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-bar">
+        <a href="index.html">日本語</a>
+        <a href="ko.html" class="active">한국어</a>
+    </nav>
+
+    <div id="searchPage" class="main-container">
+        
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" id="searchBar" placeholder="搜尋.." autocomplete="off">
+            </div>
+            <ul id="resultList"></ul>
+            <div id="pagination" class="pagination" style="display:none">
+                <button id="prevBtn">◀</button>
+                <span id="pageInfo">1/1</span>
+                <button id="nextBtn">▶</button>
+            </div>
+        </aside>
+
+        <section class="content" id="displayArea">
+            <div class="welcome">左側のサイドバーで検索を開始してください</div>
+        </section>
+
+        <div id="quizPage" class="quiz-container">
+            <div class="quiz-card">
+                <div id="quizType" class="quiz-label">読み込み中</div>
+                <div id="quizCount" class="quiz-label">---</div>
+                <div id="quizWord" class="quiz-main-word">---</div>
+
+                <div id="quizAnswerSection" style="display:none">
+                    <div id="quizResult" class="quiz-ans">---</div>
+                    <span id="quizSameReading" class="quiz-same_reading">---</span>
+                    <div id="quizDetail" class="quiz-desc"></div>
+                </div>
+
+                <div class="quiz-btns">
+                    <button class="btn-ans" onclick="revealAnswer()">答え</button>
+                    <button class="btn-next" onclick="loadNextQuiz()">次へ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="ko.js"></script>
+</body>
+</html>

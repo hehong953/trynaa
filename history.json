@@ -354,5 +354,1600 @@
   {
     "kana": "はやしだ",
     "kanji": "囃田"
+  },
+  {
+    "lang": "ja",
+    "word": "えいめんせんそう",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "しゅうせいざい",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "せっとうじ",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "つりかご",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "くんえんざい",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "せきかんとう",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "たんしょ",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "しぼ",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "いせさきおり",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "すけ",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "きょうぶしょう",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "じどうじゅんかいソフト",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "やまだあさえもん",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "げいん",
+    "extra": null
+  },
+  {
+    "lang": "ja",
+    "word": "葉茎菜類",
+    "extra": "ようけいさいるい"
+  },
+  {
+    "lang": "ja",
+    "word": "風師",
+    "extra": "ふうし"
+  },
+  {
+    "lang": "ja",
+    "word": "授戒会",
+    "extra": "じゅかいえ"
+  },
+  {
+    "lang": "ja",
+    "word": "燐酸",
+    "extra": "りんさん"
+  },
+  {
+    "lang": "ja",
+    "word": "どんど焼き",
+    "extra": "どんどやき"
+  },
+  {
+    "lang": "ja",
+    "word": "乗船",
+    "extra": "じょうせん"
+  },
+  {
+    "lang": "ja",
+    "word": "環境",
+    "extra": "かんきょうテロ"
+  },
+  {
+    "lang": "ja",
+    "word": "二階番頭",
+    "extra": "にかいばんとう"
+  },
+  {
+    "lang": "ja",
+    "word": "参政",
+    "extra": "さんせい"
+  },
+  {
+    "lang": "ja",
+    "word": "決別",
+    "extra": "けつべつ"
+  },
+  {
+    "lang": "ja",
+    "word": "荒ぶ",
+    "extra": "すさぶ"
+  },
+  {
+    "lang": "ja",
+    "word": "兎",
+    "extra": "アンゴラうさぎ"
+  },
+  {
+    "lang": "ja",
+    "word": "平均株価",
+    "extra": "へいきんかぶか"
+  },
+  {
+    "lang": "ja",
+    "word": "多才",
+    "extra": "たさい"
+  },
+  {
+    "lang": "ja",
+    "word": "陰地",
+    "extra": "かげち"
+  },
+  {
+    "lang": "ja",
+    "word": "印文",
+    "extra": "いんぶん"
+  },
+  {
+    "lang": "ja",
+    "word": "草餅の節句",
+    "extra": "くさもちのせっく"
+  },
+  {
+    "lang": "ja",
+    "word": "居間",
+    "extra": "いま"
+  },
+  {
+    "lang": "ko",
+    "word": "不言, 佛言",
+    "extra": "불언"
+  },
+  {
+    "lang": "ko",
+    "word": "相隣關係",
+    "extra": "상린관계"
+  },
+  {
+    "lang": "ko",
+    "word": "겨릅門",
+    "extra": "겨릅문"
+  },
+  {
+    "lang": "ko",
+    "word": "잔病",
+    "extra": "잔"
+  },
+  {
+    "lang": "ko",
+    "word": "抗命하다",
+    "extra": "항명하다"
+  },
+  {
+    "lang": "ko",
+    "word": "多核細胞",
+    "extra": "다핵세포"
+  },
+  {
+    "lang": "ko",
+    "word": "人證, 引證, 認證",
+    "extra": "인증"
+  },
+  {
+    "lang": "ko",
+    "word": "盛熱",
+    "extra": "성열"
+  },
+  {
+    "lang": "ko",
+    "word": "編輯人",
+    "extra": "편집인"
+  },
+  {
+    "lang": "ko",
+    "word": "皆旣蝕",
+    "extra": "개기식"
+  },
+  {
+    "lang": "ko",
+    "word": "條件反射",
+    "extra": "조건반사"
+  },
+  {
+    "lang": "ko",
+    "word": "幢竿, 撞桿",
+    "extra": "당간"
+  },
+  {
+    "lang": "ko",
+    "word": "이온化說",
+    "extra": "이온"
+  },
+  {
+    "lang": "ko",
+    "word": "等軸晶系",
+    "extra": "등축정계"
+  },
+  {
+    "lang": "ko",
+    "word": "壓勝하다",
+    "extra": "압승하다"
+  },
+  {
+    "lang": "ko",
+    "word": "血戰하다",
+    "extra": "혈전하다"
+  },
+  {
+    "lang": "ko",
+    "word": "熱烈히",
+    "extra": "열렬히"
+  },
+  {
+    "lang": "ko",
+    "word": "解毒藥",
+    "extra": "해독약"
+  },
+  {
+    "lang": "ko",
+    "word": "流連荒樂",
+    "extra": "유련황락"
+  },
+  {
+    "lang": "ko",
+    "word": "八大龍王",
+    "extra": "팔대용왕"
+  },
+  {
+    "lang": "ko",
+    "word": "原權",
+    "extra": "원권"
+  },
+  {
+    "lang": "ko",
+    "word": "時效期間",
+    "extra": "시효기간"
+  },
+  {
+    "lang": "ko",
+    "word": "바람壁",
+    "extra": "바람"
+  },
+  {
+    "lang": "ko",
+    "word": "反作하다, 燔灼하다",
+    "extra": "번작하다"
+  },
+  {
+    "lang": "ko",
+    "word": "三包, 三浦, 蔘圃",
+    "extra": "삼포"
+  },
+  {
+    "lang": "ko",
+    "word": "表文, 豹紋",
+    "extra": "표문"
+  },
+  {
+    "lang": "ko",
+    "word": "木佛",
+    "extra": "목불"
+  },
+  {
+    "lang": "ko",
+    "word": "反陽性子",
+    "extra": "반양성자"
+  },
+  {
+    "lang": "ko",
+    "word": "別味적다",
+    "extra": "별미적다"
+  },
+  {
+    "lang": "ko",
+    "word": "形骸",
+    "extra": "형해"
+  },
+  {
+    "lang": "ko",
+    "word": "刎頸하다",
+    "extra": "문경하다"
+  },
+  {
+    "lang": "ko",
+    "word": "含憾",
+    "extra": "함감"
+  },
+  {
+    "lang": "ko",
+    "word": "小京, 小逕/小徑, 小莖, 小景, 小頃",
+    "extra": "소경"
+  },
+  {
+    "lang": "ko",
+    "word": "瓦斯",
+    "extra": "와사"
+  },
+  {
+    "lang": "ko",
+    "word": "沈降反應",
+    "extra": "침강반응"
+  },
+  {
+    "lang": "ko",
+    "word": "議定憲法",
+    "extra": "의정헌법"
+  },
+  {
+    "lang": "ko",
+    "word": "城터",
+    "extra": "성터"
+  },
+  {
+    "lang": "ko",
+    "word": "布敎, 捕校",
+    "extra": "포교"
+  },
+  {
+    "lang": "ko",
+    "word": "畢婚",
+    "extra": "필혼"
+  },
+  {
+    "lang": "ko",
+    "word": "保證準備",
+    "extra": "보증준비"
+  },
+  {
+    "lang": "ko",
+    "word": "寞寞窮山",
+    "extra": "막막궁산"
+  },
+  {
+    "lang": "ko",
+    "word": "官權",
+    "extra": "관권"
+  },
+  {
+    "lang": "ko",
+    "word": "同類意識",
+    "extra": "동류의식"
+  },
+  {
+    "lang": "ko",
+    "word": "發芽率",
+    "extra": "발아율"
+  },
+  {
+    "lang": "ko",
+    "word": "年豊하다",
+    "extra": "연풍하다"
+  },
+  {
+    "lang": "ko",
+    "word": "瑞夢",
+    "extra": "서몽"
+  },
+  {
+    "lang": "ko",
+    "word": "補助觀念",
+    "extra": "보조관념"
+  },
+  {
+    "lang": "ko",
+    "word": "人造고무",
+    "extra": "인조고무"
+  },
+  {
+    "lang": "ko",
+    "word": "舌根, 舌筋",
+    "extra": "설근"
+  },
+  {
+    "lang": "ko",
+    "word": "回棹",
+    "extra": "회도"
+  },
+  {
+    "lang": "ko",
+    "word": "無色界",
+    "extra": "무색계"
+  },
+  {
+    "lang": "ko",
+    "word": "安業",
+    "extra": "안업"
+  },
+  {
+    "lang": "ko",
+    "word": "生穀하다",
+    "extra": "생곡하다"
+  },
+  {
+    "lang": "ko",
+    "word": "快擲",
+    "extra": "쾌척"
+  },
+  {
+    "lang": "ko",
+    "word": "次室",
+    "extra": "차실"
+  },
+  {
+    "lang": "ko",
+    "word": "閉鎖血管系",
+    "extra": "폐쇄혈관계"
+  },
+  {
+    "lang": "ko",
+    "word": "包圍되다",
+    "extra": "포위되다"
+  },
+  {
+    "lang": "ko",
+    "word": "凡類",
+    "extra": "범류"
+  },
+  {
+    "lang": "ko",
+    "word": "侍病하다",
+    "extra": "시병하다"
+  },
+  {
+    "lang": "ko",
+    "word": "防禦되다",
+    "extra": "방어되다"
+  },
+  {
+    "lang": "ko",
+    "word": "投資價値",
+    "extra": "투자가치"
+  },
+  {
+    "lang": "ja",
+    "word": "へたり込む",
+    "extra": "へたりこむ"
+  },
+  {
+    "lang": "ko",
+    "word": "變則活用",
+    "extra": "변칙활용"
+  },
+  {
+    "lang": "ko",
+    "word": "西部劇",
+    "extra": "서부극"
+  },
+  {
+    "lang": "ko",
+    "word": "電蓄",
+    "extra": "전축"
+  },
+  {
+    "lang": "ko",
+    "word": "爲一能事하다",
+    "extra": "위일능사하다"
+  },
+  {
+    "lang": "ko",
+    "word": "流星塵",
+    "extra": "유성진"
+  },
+  {
+    "lang": "ko",
+    "word": "感覺領",
+    "extra": "감각령"
+  },
+  {
+    "lang": "ko",
+    "word": "시粉",
+    "extra": "시"
+  },
+  {
+    "lang": "ko",
+    "word": "反陽性子",
+    "extra": "반양성자"
+  },
+  {
+    "lang": "ko",
+    "word": "石斑魚",
+    "extra": "석반어"
+  },
+  {
+    "lang": "ko",
+    "word": "生活派",
+    "extra": "생활파"
+  },
+  {
+    "lang": "ko",
+    "word": "斷切되다/斷截되다, 斷絶되다",
+    "extra": "단절되다"
+  },
+  {
+    "lang": "ko",
+    "word": "獨宿空房",
+    "extra": "독숙공방"
+  },
+  {
+    "lang": "ko",
+    "word": "正七月",
+    "extra": "정칠월"
+  },
+  {
+    "lang": "ko",
+    "word": "對句法",
+    "extra": "대귀법"
+  },
+  {
+    "lang": "ko",
+    "word": "他고장",
+    "extra": "타고장"
+  },
+  {
+    "lang": "ko",
+    "word": "被薦하다",
+    "extra": "피천하다"
+  },
+  {
+    "lang": "ko",
+    "word": "經念佛",
+    "extra": "경염불"
+  },
+  {
+    "lang": "ko",
+    "word": "山行",
+    "extra": "산행"
+  },
+  {
+    "lang": "ko",
+    "word": "門턱",
+    "extra": "문턱"
+  },
+  {
+    "lang": "ko",
+    "word": "得情",
+    "extra": "득정"
+  },
+  {
+    "lang": "ko",
+    "word": "鑛毒",
+    "extra": "광독"
+  },
+  {
+    "lang": "ko",
+    "word": "千斤力士",
+    "extra": "천근역사"
+  },
+  {
+    "lang": "ko",
+    "word": "各立하다, 角立하다",
+    "extra": "각립하다"
+  },
+  {
+    "lang": "ko",
+    "word": "冊卷",
+    "extra": "책권"
+  },
+  {
+    "lang": "ko",
+    "word": "三重席",
+    "extra": "삼중석"
+  },
+  {
+    "lang": "ko",
+    "word": "蒸發하다, 增發하다",
+    "extra": "증발하다"
+  },
+  {
+    "lang": "ko",
+    "word": "高速度",
+    "extra": "고속도"
+  },
+  {
+    "lang": "ko",
+    "word": "廣狹長短",
+    "extra": "광협장단"
+  },
+  {
+    "lang": "ko",
+    "word": "詰責하다",
+    "extra": "힐책하다"
+  },
+  {
+    "lang": "ko",
+    "word": "廢農하다",
+    "extra": "폐농하다"
+  },
+  {
+    "lang": "ko",
+    "word": "自遣, 雌犬",
+    "extra": "자견"
+  },
+  {
+    "lang": "ko",
+    "word": "腰鼓田",
+    "extra": "요고전"
+  },
+  {
+    "lang": "ko",
+    "word": "抒情詩/敍情詩",
+    "extra": "서정시"
+  },
+  {
+    "lang": "ko",
+    "word": "常漢, 象限, 傷寒, 上限, 上澣",
+    "extra": "상한"
+  },
+  {
+    "lang": "ko",
+    "word": "死亡하다",
+    "extra": "사망하다"
+  },
+  {
+    "lang": "ko",
+    "word": "共同住宅",
+    "extra": "공동주택"
+  },
+  {
+    "lang": "ko",
+    "word": "聞風하다",
+    "extra": "문풍하다"
+  },
+  {
+    "lang": "ko",
+    "word": "祝願하다",
+    "extra": "축원하다"
+  },
+  {
+    "lang": "ko",
+    "word": "還補",
+    "extra": "환보"
+  },
+  {
+    "lang": "ko",
+    "word": "改斗量하다",
+    "extra": "개두량하다"
+  },
+  {
+    "lang": "ko",
+    "word": "建功하다",
+    "extra": "건공하다"
+  },
+  {
+    "lang": "ko",
+    "word": "灰汁",
+    "extra": "회즙"
+  },
+  {
+    "lang": "ko",
+    "word": "完熟하다",
+    "extra": "완숙하다"
+  },
+  {
+    "lang": "ko",
+    "word": "標榜하다",
+    "extra": "표방하다"
+  },
+  {
+    "lang": "ko",
+    "word": "徒勞無益",
+    "extra": "도로무익"
+  },
+  {
+    "lang": "ko",
+    "word": "食邑",
+    "extra": "식읍"
+  },
+  {
+    "lang": "ko",
+    "word": "生庭",
+    "extra": "생정"
+  },
+  {
+    "lang": "ko",
+    "word": "頑民",
+    "extra": "완민"
+  },
+  {
+    "lang": "ko",
+    "word": "字高低",
+    "extra": "자고저"
+  },
+  {
+    "lang": "ko",
+    "word": "推閱하다",
+    "extra": "추열하다"
+  },
+  {
+    "lang": "ko",
+    "word": "埋築地",
+    "extra": "매축지"
+  },
+  {
+    "lang": "ko",
+    "word": "孫, 巽, 損",
+    "extra": "손"
+  },
+  {
+    "lang": "ko",
+    "word": "<參與녜하다",
+    "extra": "말참녜하다"
+  },
+  {
+    "lang": "ko",
+    "word": "如何間",
+    "extra": "여하간"
+  },
+  {
+    "lang": "ko",
+    "word": "허튼酬酌",
+    "extra": "허튼"
+  },
+  {
+    "lang": "ko",
+    "word": "雙十節",
+    "extra": "쌍십절"
+  },
+  {
+    "lang": "ko",
+    "word": "內耳炎",
+    "extra": "내이염"
+  },
+  {
+    "lang": "ko",
+    "word": "康衢煙月",
+    "extra": "강구연월"
+  },
+  {
+    "lang": "ko",
+    "word": "追納, 推納",
+    "extra": "추납"
+  },
+  {
+    "lang": "ko",
+    "word": "開棺하다, 開館하다, 改棺하다, 蓋棺하다, 槪觀하다",
+    "extra": "개관하다"
+  },
+  {
+    "lang": "ko",
+    "word": "別衆僧",
+    "extra": "별중승"
+  },
+  {
+    "lang": "ko",
+    "word": "再分配",
+    "extra": "재분배"
+  },
+  {
+    "lang": "ko",
+    "word": "薄給",
+    "extra": "박급"
+  },
+  {
+    "lang": "ko",
+    "word": "差入되다",
+    "extra": "차입되다"
+  },
+  {
+    "lang": "ko",
+    "word": "早出하다, 造出하다",
+    "extra": "조출하다"
+  },
+  {
+    "lang": "ko",
+    "word": "脫劫하다",
+    "extra": "탈겁하다"
+  },
+  {
+    "lang": "ko",
+    "word": "智謀雄略",
+    "extra": "지모웅략"
+  },
+  {
+    "lang": "ko",
+    "word": "逆轉勝",
+    "extra": "역전승"
+  },
+  {
+    "lang": "ko",
+    "word": "赴任하다",
+    "extra": "부임하다"
+  },
+  {
+    "lang": "ko",
+    "word": "免窮하다",
+    "extra": "면궁하다"
+  },
+  {
+    "lang": "ko",
+    "word": "精肉, 正肉",
+    "extra": "정육"
+  },
+  {
+    "lang": "ko",
+    "word": "杏子盤",
+    "extra": "행자반"
+  },
+  {
+    "lang": "ko",
+    "word": "繩播",
+    "extra": "승파"
+  },
+  {
+    "lang": "ko",
+    "word": "超世하다",
+    "extra": "초세하다"
+  },
+  {
+    "lang": "ko",
+    "word": "等軸晶系",
+    "extra": "등축정계"
+  },
+  {
+    "lang": "ko",
+    "word": "優待券",
+    "extra": "우대권"
+  },
+  {
+    "lang": "ko",
+    "word": "實證論",
+    "extra": "실증론"
+  },
+  {
+    "lang": "ko",
+    "word": "官銜",
+    "extra": "관함"
+  },
+  {
+    "lang": "ko",
+    "word": "石龕",
+    "extra": "석감"
+  },
+  {
+    "lang": "ko",
+    "word": "先年",
+    "extra": "선년"
+  },
+  {
+    "lang": "ko",
+    "word": "宣飯, 旋盤, 先般",
+    "extra": "선반"
+  },
+  {
+    "lang": "ko",
+    "word": "市井輩",
+    "extra": "시정배"
+  },
+  {
+    "lang": "ko",
+    "word": "溫熱",
+    "extra": "온열"
+  },
+  {
+    "lang": "ko",
+    "word": "階이름부르기",
+    "extra": "계이름부르기"
+  },
+  {
+    "lang": "ko",
+    "word": "死別하다",
+    "extra": "사별하다"
+  },
+  {
+    "lang": "ko",
+    "word": "營屯田",
+    "extra": "영둔전"
+  },
+  {
+    "lang": "ko",
+    "word": "聖盒",
+    "extra": "성합"
+  },
+  {
+    "lang": "ko",
+    "word": "達成하다",
+    "extra": "달성하다"
+  },
+  {
+    "lang": "ko",
+    "word": "軍行旅進",
+    "extra": "군행여진"
+  },
+  {
+    "lang": "ko",
+    "word": "北平館",
+    "extra": "북평관"
+  },
+  {
+    "lang": "ko",
+    "word": "非常任理事國",
+    "extra": "비상임이사국"
+  },
+  {
+    "lang": "ko",
+    "word": "出差",
+    "extra": "출차"
+  },
+  {
+    "lang": "ko",
+    "word": "學生運動",
+    "extra": "학생운동"
+  },
+  {
+    "lang": "ko",
+    "word": "刀痕",
+    "extra": "도흔"
+  },
+  {
+    "lang": "ko",
+    "word": "置中先手하다",
+    "extra": "치중선수하다"
+  },
+  {
+    "lang": "ko",
+    "word": "가시蓮",
+    "extra": "가시련"
+  },
+  {
+    "lang": "ko",
+    "word": "勳臣",
+    "extra": "훈신"
+  },
+  {
+    "lang": "ko",
+    "word": "홑씨房",
+    "extra": "홑씨방"
+  },
+  {
+    "lang": "ko",
+    "word": "無所有",
+    "extra": "무소유"
+  },
+  {
+    "lang": "ko",
+    "word": "先셈하다",
+    "extra": "선셈하다"
+  },
+  {
+    "lang": "ko",
+    "word": "獄中",
+    "extra": "옥중"
+  },
+  {
+    "lang": "ko",
+    "word": "頒料하다",
+    "extra": "반료하다"
+  },
+  {
+    "lang": "ko",
+    "word": "禁斷症狀",
+    "extra": "금단증상"
+  },
+  {
+    "lang": "ko",
+    "word": "貴中, 歸重",
+    "extra": "귀중"
+  },
+  {
+    "lang": "ko",
+    "word": "井字살門",
+    "extra": "정자살문"
+  },
+  {
+    "lang": "ko",
+    "word": "廉察하다",
+    "extra": "염찰하다"
+  },
+  {
+    "lang": "ko",
+    "word": "誅殺",
+    "extra": "주살"
+  },
+  {
+    "lang": "ko",
+    "word": "反映하다",
+    "extra": "반영하다"
+  },
+  {
+    "lang": "ko",
+    "word": "推進機",
+    "extra": "추진기"
+  },
+  {
+    "lang": "ko",
+    "word": "辛苦스럽다",
+    "extra": "신고스럽다"
+  },
+  {
+    "lang": "ko",
+    "word": "마케도니아王國",
+    "extra": "마케도니아왕국"
+  },
+  {
+    "lang": "ko",
+    "word": "思想的",
+    "extra": "사상적"
+  },
+  {
+    "lang": "ko",
+    "word": "態거리",
+    "extra": "탯거리"
+  },
+  {
+    "lang": "ko",
+    "word": null,
+    "extra": "가루는 칠수록 고와지고 말은 할수록 거칠어진다"
+  },
+  {
+    "lang": "ko",
+    "word": "無事故",
+    "extra": "무사고"
+  },
+  {
+    "lang": "ko",
+    "word": "반물色",
+    "extra": "반물"
+  },
+  {
+    "lang": "ko",
+    "word": "休校하다",
+    "extra": "휴교하다"
+  },
+  {
+    "lang": "ko",
+    "word": null,
+    "extra": "해오라기"
+  },
+  {
+    "lang": "ko",
+    "word": "來着하다",
+    "extra": "내착하다"
+  },
+  {
+    "lang": "ko",
+    "word": "治兵하다, 治病하다",
+    "extra": "치병하다"
+  },
+  {
+    "lang": "ko",
+    "word": "厄달",
+    "extra": "액달"
+  },
+  {
+    "lang": "ko",
+    "word": "雜輩",
+    "extra": "잡배"
+  },
+  {
+    "lang": "ko",
+    "word": "法定準備金",
+    "extra": "법정준비금"
+  },
+  {
+    "lang": "ko",
+    "word": "遞減되다",
+    "extra": "체감되다"
+  },
+  {
+    "lang": "ko",
+    "word": null,
+    "extra": "앉은뱅이 용쓴다"
+  },
+  {
+    "lang": "ko",
+    "word": "讓與",
+    "extra": "양여"
+  },
+  {
+    "lang": "ko",
+    "word": "검은藥",
+    "extra": "검은약"
+  },
+  {
+    "lang": "ko",
+    "word": "罰禮錢",
+    "extra": "벌례전"
+  },
+  {
+    "lang": "ko",
+    "word": "팔레오世",
+    "extra": "팔레오"
+  },
+  {
+    "lang": "ko",
+    "word": "月宮",
+    "extra": "월궁"
+  },
+  {
+    "lang": "ko",
+    "word": "各司, 覺辭",
+    "extra": "각사"
+  },
+  {
+    "lang": "ko",
+    "word": null,
+    "extra": "우수마발"
+  },
+  {
+    "lang": "ko",
+    "word": "郎騎馬",
+    "extra": "낭기마"
+  },
+  {
+    "lang": "ko",
+    "word": "平行移動",
+    "extra": "평행이동"
+  },
+  {
+    "lang": "ko",
+    "word": "超高速度",
+    "extra": "초고속도"
+  },
+  {
+    "lang": "ko",
+    "word": "갈비새김",
+    "extra": "갈비새김"
+  },
+  {
+    "lang": "ko",
+    "word": "넉살스레",
+    "extra": "넉살스레"
+  },
+  {
+    "lang": "ko",
+    "word": "替勞",
+    "extra": "체로"
+  },
+  {
+    "lang": "ko",
+    "word": "꼬리韻",
+    "extra": "꼬리운"
+  },
+  {
+    "lang": "ko",
+    "word": "廢合되다",
+    "extra": "폐합되다"
+  },
+  {
+    "lang": "ko",
+    "word": "킬로電子볼트",
+    "extra": "킬로볼트"
+  },
+  {
+    "lang": "ko",
+    "word": "包括承繼",
+    "extra": "포괄승계"
+  },
+  {
+    "lang": "ko",
+    "word": "送別하다",
+    "extra": "송별하다"
+  },
+  {
+    "lang": "ko",
+    "word": "奪略/奪掠",
+    "extra": "탈략"
+  },
+  {
+    "lang": "ko",
+    "word": "現象型",
+    "extra": "현상형"
+  },
+  {
+    "lang": "ko",
+    "word": "阡陌, 泉脈",
+    "extra": "천맥"
+  },
+  {
+    "lang": "ko",
+    "word": "종구라기",
+    "extra": "종구라기"
+  },
+  {
+    "lang": "ko",
+    "word": "앙글대다",
+    "extra": "앙글대다"
+  },
+  {
+    "lang": "ko",
+    "word": "신중절",
+    "extra": "신중절"
+  },
+  {
+    "lang": "ko",
+    "word": "空氣뿌리",
+    "extra": "공기뿌리"
+  },
+  {
+    "lang": "ko",
+    "word": "뭇따래기",
+    "extra": "뭇따래기"
+  },
+  {
+    "lang": "ko",
+    "word": "高邁하다",
+    "extra": "고매하다"
+  },
+  {
+    "lang": "ko",
+    "word": "ㅂ네",
+    "extra": "ㅂ네"
+  },
+  {
+    "lang": "ja",
+    "word": "4",
+    "extra": "ファクターフォー"
+  },
+  {
+    "lang": "ja",
+    "word": "12",
+    "extra": "プレミアじゅうに"
+  },
+  {
+    "lang": "ja",
+    "word": "8の字結び",
+    "extra": "はちのじむすび"
+  },
+  {
+    "lang": "ja",
+    "word": ".11",
+    "extra": "ドットイレブン"
+  },
+  {
+    "lang": "ja",
+    "word": "10",
+    "extra": "ファクターテン"
+  },
+  {
+    "lang": "ja",
+    "word": "4",
+    "extra": "ファクターフォー"
+  },
+  {
+    "lang": "ja",
+    "word": "3D",
+    "extra": "スリーディースキャン"
+  },
+  {
+    "lang": "ja",
+    "word": "3D",
+    "extra": "スリーディースキャン"
+  },
+  {
+    "lang": "ja",
+    "word": "3D映画",
+    "extra": "スリーディーえいが"
+  },
+  {
+    "lang": "ja",
+    "word": "4の字固め",
+    "extra": "よんのじがため"
+  },
+  {
+    "lang": "ja",
+    "word": "4の字固め",
+    "extra": "よんのじがため"
+  },
+  {
+    "lang": "ja",
+    "word": "500",
+    "extra": "インディーごひゃく"
+  },
+  {
+    "lang": "ja",
+    "word": "30",
+    "extra": "ゾーンさんじゅう"
+  },
+  {
+    "lang": "ja",
+    "word": "@@LINK=@daijirin2-069499-0005",
+    "extra": "@@LINK=@daijirin2-069499-0005"
+  },
+  {
+    "lang": "ja",
+    "word": "バルマカーンコート",
+    "extra": "バルマカーンコート"
+  },
+  {
+    "lang": "ja",
+    "word": "五つの安心",
+    "extra": "いつつのあんしんプラン"
+  },
+  {
+    "lang": "ja",
+    "word": "@@LINK=@daijirin2-056819-0000",
+    "extra": "@@LINK=@daijirin2-056819-0000"
+  },
+  {
+    "lang": "ja",
+    "word": "@@LINK=@daijirin2-040576-0000",
+    "extra": "@@LINK=@daijirin2-040576-0000"
+  },
+  {
+    "lang": "ja",
+    "word": "@@LINK=@daijirin2-008802-0004",
+    "extra": "@@LINK=@daijirin2-008802-0004"
+  },
+  {
+    "lang": "ja",
+    "word": "聡悟",
+    "extra": "そうご"
+  },
+  {
+    "lang": "ja",
+    "word": "一寸も",
+    "extra": "ちょっとも"
+  },
+  {
+    "lang": "ja",
+    "word": "菓子",
+    "extra": "かしパン"
+  },
+  {
+    "lang": "ja",
+    "word": "茶神",
+    "extra": "ちゃしん"
+  },
+  {
+    "lang": "ja",
+    "word": "礼奉公",
+    "extra": "れいぼうこう"
+  },
+  {
+    "lang": "ja",
+    "word": "李大釗",
+    "extra": "りたいしょう"
+  },
+  {
+    "lang": "ja",
+    "word": "絛虫",
+    "extra": "じょうちゅう"
+  },
+  {
+    "lang": "ja",
+    "word": "おたおた",
+    "extra": "おたおた"
+  },
+  {
+    "lang": "ja",
+    "word": "丁丁",
+    "extra": "とうとう"
+  },
+  {
+    "lang": "ja",
+    "word": "生干し",
+    "extra": "なまぼし"
+  },
+  {
+    "lang": "ja",
+    "word": "島",
+    "extra": "シテとう"
+  },
+  {
+    "lang": "ja",
+    "word": "生活費",
+    "extra": "せいかつひ"
+  },
+  {
+    "lang": "ja",
+    "word": "横槍",
+    "extra": "よこやり"
+  },
+  {
+    "lang": "ja",
+    "word": "八十島隠る",
+    "extra": "やそしまがくる"
+  },
+  {
+    "lang": "ja",
+    "word": "エンディアン",
+    "extra": "エンディアン"
+  },
+  {
+    "lang": "ja",
+    "word": "樫",
+    "extra": "コルクがし"
+  },
+  {
+    "lang": "ja",
+    "word": "直送",
+    "extra": "ちょくそう"
+  },
+  {
+    "lang": "ja",
+    "word": "点取り虫",
+    "extra": "てんとりむし"
+  },
+  {
+    "lang": "ja",
+    "word": "フォーリンオペレーション",
+    "extra": "フォーリンオペレーション"
+  },
+  {
+    "lang": "ja",
+    "word": "曽我兄弟",
+    "extra": "そがきょうだい"
+  },
+  {
+    "lang": "ja",
+    "word": "継ぎ合わす",
+    "extra": "つぎあわす"
+  },
+  {
+    "lang": "ja",
+    "word": "付き商品券",
+    "extra": "プレミアムつきしょうひんけん"
+  },
+  {
+    "lang": "ja",
+    "word": "寄せ",
+    "extra": "メーンよせ"
+  },
+  {
+    "lang": "ja",
+    "word": "救急告示医療機関",
+    "extra": "きゅうきゅうこくじいりょうきかん"
+  },
+  {
+    "lang": "ja",
+    "word": "ワレニウス",
+    "extra": "ワレニウス"
+  },
+  {
+    "lang": "ja",
+    "word": "後藤牧太",
+    "extra": "ごとうまきた"
+  },
+  {
+    "lang": "ja",
+    "word": "ビジネスアライアンス",
+    "extra": "ビジネスアライアンス"
+  },
+  {
+    "lang": "ja",
+    "word": "賤男",
+    "extra": "しずお"
+  },
+  {
+    "lang": "ja",
+    "word": "金剛力",
+    "extra": "こんごうりき"
+  },
+  {
+    "lang": "ja",
+    "word": "峰定寺",
+    "extra": "ぶじょうじ"
+  },
+  {
+    "lang": "ja",
+    "word": "草を分けて探",
+    "extra": "草を分けて探"
+  },
+  {
+    "lang": "ja",
+    "word": "好都合",
+    "extra": "こうつごう"
+  },
+  {
+    "lang": "ja",
+    "word": "労働協約",
+    "extra": "ろうどうきょうやく"
+  },
+  {
+    "lang": "ja",
+    "word": "悪趣",
+    "extra": "あくしゅ"
+  },
+  {
+    "lang": "ja",
+    "word": "韮黄",
+    "extra": "ジョウホワン"
+  },
+  {
+    "lang": "ja",
+    "word": "満艦飾",
+    "extra": "まんかんしょく"
+  },
+  {
+    "lang": "ja",
+    "word": "脚線美",
+    "extra": "きゃくせんび"
+  },
+  {
+    "lang": "ja",
+    "word": "決め打ち",
+    "extra": "きめうち"
+  },
+  {
+    "lang": "ja",
+    "word": "和式",
+    "extra": "わしき"
+  },
+  {
+    "lang": "ja",
+    "word": "関節鼠",
+    "extra": "かんせつねずみ"
+  },
+  {
+    "lang": "ja",
+    "word": "尾に尾をつ",
+    "extra": "尾に尾をつ"
+  },
+  {
+    "lang": "ja",
+    "word": "フォス",
+    "extra": "フォス"
+  },
+  {
+    "lang": "ja",
+    "word": "代議士",
+    "extra": "だいぎし"
+  },
+  {
+    "lang": "ja",
+    "word": "絆す",
+    "extra": "ほだす"
+  },
+  {
+    "lang": "ja",
+    "word": "蝸舎",
+    "extra": "かしゃ"
+  },
+  {
+    "lang": "ko",
+    "word": "農務, 農舞, 濃霧",
+    "extra": "농무"
+  },
+  {
+    "lang": "ko",
+    "word": "扁罐",
+    "extra": "편관"
+  },
+  {
+    "lang": "ko",
+    "word": "辱及父兄하다",
+    "extra": "욕급부형하다"
+  },
+  {
+    "lang": "ko",
+    "word": "晨鷄",
+    "extra": "신계"
+  },
+  {
+    "lang": "ko",
+    "word": "軍需品",
+    "extra": "군수품"
+  },
+  {
+    "lang": "ko",
+    "word": "報債하다",
+    "extra": "보채하다"
+  },
+  {
+    "lang": "ko",
+    "word": "紅唐무",
+    "extra": "홍당무"
+  },
+  {
+    "lang": "ko",
+    "word": "벗기다",
+    "extra": "벗기다"
   }
 ]

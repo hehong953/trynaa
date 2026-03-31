@@ -5,7 +5,7 @@ async function doSearch(page = 1) {
     const word = document.getElementById('searchBar').value.trim();
     if (!word) return;
 
-    const res = await fetch(`/api/search?word=${encodeURIComponent(word)}&page=${page}`);
+    const res = await fetch(`/api/search?word=${encodeURIComponent(word)}&lang=ja&page=${page}`);
     const data = await res.json();
 
     const list = document.getElementById('resultList');
@@ -32,7 +32,7 @@ document.getElementById('nextBtn').onclick = () => {
 };
 
 async function loadEntry(id) {
-    const res = await fetch(`/api/entry/${id}`);
+    const res = await fetch(`/api/entry/ja/${id}`);
     document.getElementById('displayArea').innerHTML = await res.text();
 }
 

@@ -6,31 +6,35 @@ from litestar.static_files import create_static_files_router
 import json
 from pathlib import Path
 
-DB_NAME = "daijirin2.db"
+# 資料庫配置
+DB_CONFIG = {
+    "ja": "daijirin2.db",
+    "ko": "korean_dict.db"
+}
 
 DATA_FILE = Path("history.json")
 
-def save_quiz_result(result: dict):
-    # 讀取原本資料
+def save_quiz_result(result: dict, lang: str):
     if DATA_FILE.exists():
         with open(DATA_FILE, "r", encoding="utf-8") as f:
             data = json.load(f)
     else:
         data = []
 
-    result = {
-        "kana": result["kana"],
-        "kanji": result["kanji"]
+    # 統一儲存格式：kana/word 對應發音，kanji/hanja 對應漢字
+    save_data = {
+        "lang": lang,
+        "word": result.get("kana") or result.get("word"),
+        "extra": result.get("kanji") or result.get("hanja")
     }
+    data.append(save_data)
 
-    data.append(result)
-
-    # 寫回檔案
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-        
-def query_db(sql, params=(), one=False):
-    conn = sqlite3.connect(DB_NAME)
+
+def query_db(db_key, sql, params=(), one=False):
+    db_path = DB_CONFIG.get(db_key, DB_CONFIG[db_key])
+    conn = sqlite3.connect(db_path)
     conn.row_factory = sqlite3.Row
     cur = conn.cursor()
     cur.execute(sql, params)
@@ -39,67 +43,95 @@ def query_db(sql, params=(), one=False):
     return (rv[0] if rv else None) if one else rv
 
 @get("/api/search")
-async def search(word: str, page: int = 1) -> dict:
+async def search(word: str, lang: str, page: int = 1) -> dict:
     limit = 40
     offset = (page - 1) * limit
     w_contain = f"%{word}%"
     w_start = f"{word}%"
     
-    count_sql = "SELECT COUNT(*) as total FROM entries WHERE headword_kana LIKE ? OR headword_kanji LIKE ?"
-    total_row = query_db(count_sql, (w_contain, w_contain), one=True)
+    # 根據語言決定欄位名稱
+    col_main = "headword_kana" if lang == "ja" else "word"
+    col_sub = "headword_kanji" if lang == "ja" else "hanja"
+
+    count_sql = f"SELECT COUNT(*) as total FROM entries WHERE {col_main} LIKE ? OR {col_sub} LIKE ?"
+    total_row = query_db(lang, count_sql, (w_contain, w_contain), one=True)
     total_count = total_row["total"] if total_row else 0
     total_pages = max(1, (total_count + limit - 1) // limit)
 
-    sql = """
-        SELECT id, headword_kana, headword_kanji FROM entries 
-        WHERE headword_kana LIKE ? OR headword_kanji LIKE ?
+    sql = f"""
+        SELECT id, {col_main}, {col_sub} FROM entries 
+        WHERE {col_main} LIKE ? OR {col_sub} LIKE ?
         ORDER BY 
             CASE 
-                WHEN headword_kana = ? OR headword_kanji = ? THEN 0
-                WHEN headword_kana LIKE ? OR headword_kanji LIKE ? THEN 1
+                WHEN {col_main} = ? OR {col_sub} = ? THEN 0
+                WHEN {col_main} LIKE ? OR {col_sub} LIKE ? THEN 1
                 ELSE 2
             END,
-            headword_kana ASC
+            {col_main} ASC
         LIMIT ? OFFSET ?
     """
     params = (w_contain, w_contain, word, word, w_start, w_start, limit, offset)
-    results = query_db(sql, params)
+    results = query_db(lang, sql, params)
     
     output = []
     for r in results:
-        kana = r["headword_kana"]
-        kanji = r["headword_kanji"]
-        display = kana if kana == kanji else f"{kana} ({kanji})"
-        output.append({"id": r["id"], "headword": display})
+        main = r[col_main]
+        sub = r[col_sub]
+        # 如果漢字/漢字欄位與主詞條不同且不為空，則顯示括號
+        display = main if (not sub or main == sub) else f"{main} ({sub})"
+        output.append({"id": r["id"], "headword": display, "lang": lang})
         
     return {"results": output, "current_page": page, "total_pages": total_pages}
 
-@get("/api/entry/{entry_id:str}")
-async def get_entry(entry_id: str) -> Response:
-    row = query_db("SELECT content FROM entries WHERE id = ?", (entry_id,), one=True)
+@get("/api/entry/{lang:str}/{entry_id:str}")
+async def get_entry(lang: str, entry_id: str) -> Response:
+    # 這裡的 entry_id 可能是數字字串，需確保查詢正確
+    row = query_db(lang, "SELECT content FROM entries WHERE id = ?", (entry_id,), one=True)
     return Response(content=row["content"] if row else "<h3>未找到</h3>", media_type="text/html")
 
 @get("/api/quiz/random")
-async def get_random_quiz() -> dict:
-    # 測驗優先挑選有漢字差異的
-    row = query_db("SELECT * FROM entries WHERE headword_kana != headword_kanji ORDER BY RANDOM() LIMIT 1", one=True)
-    if not row: row = query_db("SELECT * FROM entries ORDER BY RANDOM() LIMIT 1", one=True)
-    kana = row["headword_kana"]
+async def get_random_quiz(lang: str = "ja") -> dict:
+    col_main = "headword_kana" if lang == "ja" else "word"
+    col_sub = "headword_kanji" if lang == "ja" else "hanja"
 
-    kanji_rows = query_db(
-        "SELECT DISTINCT headword_kanji FROM entries WHERE headword_kana = ?",
-        (kana,)
-    )
-    kanji_list = [r["headword_kanji"] for r in kanji_rows]
-    count = len(kanji_list) - 1
-    kanji_str = "、".join(kanji_list)
+    # ja
+    if lang == "ja":
+        row = query_db(lang, f"SELECT * FROM entries WHERE {col_sub} IS NOT NULL AND {col_sub} != '' AND {col_main} NOT LIKE '@%' ORDER BY RANDOM() LIMIT 1", one=True)
+        if not row: 
+            row = query_db(lang, "SELECT * FROM entries ORDER BY RANDOM() LIMIT 1", one=True)
+    else:  # ko
+        row = query_db(lang, f"SELECT * FROM entries WHERE {col_sub} ORDER BY RANDOM() LIMIT 1", one=True)
+        if not row: 
+            row = query_db(lang, "SELECT * FROM entries ORDER BY RANDOM() LIMIT 1", one=True)
+    
+    main_val = row[col_main]
+    sub_val = row[col_sub]
 
-    #sql = "SELECT COUNT(*) as cnt FROM entries WHERE headword_kana = ?"
-    #result = query_db(sql, (row["headword_kana"],), one=True)
-    #count = int(result["cnt"]) -1 if result else 0
+    if sub_val == "":
+        sub_val = main_val
 
-    result = {"kana": row["headword_kana"], "kanji": row["headword_kanji"], "content": row["content"], "count": count, "kanjiList": kanji_str}
-    save_quiz_result(result)
+    # 獲取同音的其他詞
+    other_rows = query_db(lang, f"SELECT DISTINCT {col_sub} FROM entries WHERE {col_main} = ?", (main_val,))
+    sub_list = [r[col_sub] for r in other_rows if r[col_sub]]
+    
+    count = len(sub_list) - 1
+    sub_str = "、".join(sub_list)
+
+    result = {
+        "kanji": main_val, 
+        "kana": sub_val, 
+        "content": row["content"], 
+        "count": count, 
+        "kanjiList": sub_str,
+        "lang": lang
+    }
+    
+    save_quiz_result(result, lang)
     return result
 
-app = Litestar(route_handlers=[search, get_entry, get_random_quiz, create_static_files_router(path="/", directories=["static"], html_mode=True)])
+app = Litestar(route_handlers=[
+    search, 
+    get_entry, 
+    get_random_quiz, 
+    create_static_files_router(path="/", directories=["static"], html_mode=True)
+])
